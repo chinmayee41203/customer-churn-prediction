@@ -1,25 +1,14 @@
+# Data
+data/raw/
+data/processed/
+
 # Python
 venv/
 __pycache__/
 *.pyc
-*.pyo
-*.egg-info/
-dist/
-build/
-
-# Data (don't push raw data to GitHub)
-data/raw/
-data/processed/
-
-# Models
-models/*.pkl
-models/*.joblib
 
 # Env
 .env
-
-# Jupyter
-.ipynb_checkpoints/
 
 # OS
 .DS_Store
