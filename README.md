@@ -43,3 +43,19 @@ streamlit run dashboard/app.py
 ```
 
 ## Project Structure
+├── data/
+│   ├── raw/                  # Raw dataset
+│   └── processed/            # Cleaned + feature engineered data
+├── notebooks/
+│   ├── 01_EDA.ipynb
+│   ├── 02_Cleaning.ipynb
+│   ├── 03_Feature_Engineering.ipynb
+│   ├── 04_Modeling.ipynb
+│   ├── 05_Evaluation.ipynb
+│   └── 06_SHAP.ipynb
+├── src/                      # Reusable pipeline scripts
+├── models/                   # Trained model artifacts
+├── reports/                  # Figures + risk scores
+├── dashboard/
+│   └── app.py                # Streamlit dashboard
+└── requirements.txt
